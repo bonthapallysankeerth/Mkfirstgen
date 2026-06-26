@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { MapPin, Phone, MessageSquare, Compass } from "lucide-react";
 function Contact() {
   const [showWhatsApp, setShowWhatsApp] = useState(false);
-  const [formSubmitted, setFormSubmitted] = useState(false);
 
   // Show WhatsApp floating button only after scrolling down
   useEffect(() => {
@@ -18,12 +17,7 @@ function Contact() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setFormSubmitted(true);
-    setTimeout(() => setFormSubmitted(false), 5000);
-  };
-
+ 
   return (
     <section id="contact" className="py-24 bg-gradient-to-b from-cricket-dark to-cricket-pitch relative overflow-hidden">
       {/* Background spotlights */}

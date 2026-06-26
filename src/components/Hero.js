@@ -1,8 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ChevronRight, Calendar, Award, Activity, ShieldCheck, Flame, Compass } from "lucide-react";
 
-// Floating Gold Particles Component for Cinematic Atmosphere
+import {
+  Trophy,
+  Award,
+  Activity,
+  ShieldCheck,
+  Flame,
+  Compass,
+  ChevronRight,
+  Calendar
+} from "lucide-react";// Floating Gold Particles Component for Cinematic Atmosphere
 const FloatingParticles = () => {
   const particles = Array.from({ length: 15 });
   return (

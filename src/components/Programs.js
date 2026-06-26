@@ -1,7 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Swords, Compass, ShieldAlert, Dumbbell, PlayCircle, Trophy, Activity } from "lucide-react";
 
+import {
+  Swords,
+  Compass,
+  ShieldAlert,
+  Dumbbell,
+  PlayCircle,
+  Trophy
+} from "lucide-react";
 const programsList = [
   {
     icon: Swords,
