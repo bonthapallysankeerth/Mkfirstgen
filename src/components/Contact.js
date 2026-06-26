@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MapPin, Phone, MessageSquare, Compass, ShieldAlert, Award, Send } from "lucide-react";
-
+import { MapPin, Phone, MessageSquare, Compass } from "lucide-react";
 function Contact() {
   const [showWhatsApp, setShowWhatsApp] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
